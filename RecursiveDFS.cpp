@@ -30,7 +30,7 @@ int main (void){
   createAndAddEdge(adjList, 3, 3); // Do this because no children!
   createAndAddEdge(adjList, 4, 4);
   createAndAddEdge(adjList, 2, 2);
-  DFS(adjList, visitedVertex, source); // Perform DFS given graph G and a source s
+  RecursiveDFS(adjList, visitedVertex, source); // Perform DFS given graph G and a source s
   cout << endl;
   //Should Print: 0 1 3 4 2
 

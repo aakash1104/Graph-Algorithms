@@ -41,7 +41,7 @@ int main (void){
   createAndAddEdge(adjList, 3, 3);
   createAndAddEdge(adjList, 4, 4);
   createAndAddEdge(adjList, 2, 2);
-  DFS(adjList, visitedVertex, source); // Perform BFS given graph G and a source s
-  //Should Print: 0 1 2 5 3 4
+  DFS(adjList, visitedVertex, source); // Perform DFS given graph G and a source s
+  //Should Print: 0 2 1 4 3
 
 } // main()

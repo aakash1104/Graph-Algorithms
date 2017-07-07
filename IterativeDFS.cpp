@@ -26,7 +26,7 @@ void DFS(vector <int> adjList[], vector <bool> visitedVertex, int source){
       } // if not visited
   } // While Stack is not empty
   cout << endl;
-} // BFS
+} // DFS
 
 int main (void){
   // Idea is to implement the adjacency list as an array of vectors:

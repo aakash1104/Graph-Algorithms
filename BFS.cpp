@@ -15,7 +15,7 @@ void BFS(vector <int> adjList[], vector <bool> visitedVertex, int source){
   int v;
   Q.push(source);
   while (!Q.empty()){
-    v = Q.front(); // Say suppose we get 1
+    v = Q.front();
     visitedVertex.at(v) = true;
     Q.pop();
     cout << v << " "; // Print Vertex
@@ -39,6 +39,9 @@ int main (void){
   createAndAddEdge(adjList, 1, 5);
   createAndAddEdge(adjList, 2, 3);
   createAndAddEdge(adjList, 2, 4);
+  createAndAddEdge(adjList, 3, 3);
+  createAndAddEdge(adjList, 4, 4);
+  createAndAddEdge(adjList, 5, 5);
   BFS(adjList, visitedVertex, source); // Perform BFS given graph G and a source s
   //Should Print: 0 1 2 5 3 4
 

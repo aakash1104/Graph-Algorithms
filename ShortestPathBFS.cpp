@@ -58,5 +58,5 @@ int main (void){
   createAndAddEdge(adjList, 4, 4);
   createAndAddEdge(adjList, 5, 5);
   ShortestPath(adjList, visitedVertex, source); // Find the shortest path from the source to all other vertices.
-  //Shortest Path from 0: 0 1 1 2 2 2
+  //Shortest Path from 0: 0 1 2 3 3 2
 } // main()

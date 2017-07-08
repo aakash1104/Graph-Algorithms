@@ -50,7 +50,7 @@ int main (void){
   vector<int> adjList[numVertices]; // Create an array of vectors
   vector <bool> visitedVertex(numVertices, false);
   createAndAddEdge(adjList, 0, 1);
-  createAndAddEdge(adjList, 0, 2);
+  createAndAddEdge(adjList, 1, 2);
   createAndAddEdge(adjList, 1, 5);
   createAndAddEdge(adjList, 2, 3);
   createAndAddEdge(adjList, 2, 4);

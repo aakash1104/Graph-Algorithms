@@ -18,7 +18,7 @@ graph theory in a technical interview.
 
 ## Introduction to Graphs
 
-
+### Basic Definition
 * A graph, *G* is an ordered pair of the form, `G = (V, E)` where *V* is a set
 of vertices and *E* is a set of edges through which vertices are connected.
 A graph may be _directed_ or _undirected_.
@@ -30,6 +30,15 @@ Here is an example of a simple undirected graph:
 Here is a simple directed graph:
 
 ![Directed Graph](images/directed-graph.png)
+
+### Sparse vs Dense Graphs
+
+If _|E| ≈ |V|<sup>2</sup>_ (which is the maximum number of edges in a graph),
+then the graph is said to be **dense**
+
+If _|E| ≈ |V|_, then the graph is said to be **sparse**
+
+### Connectivity of Graphs
 
 * A graph is said to be **connected** if there exists a path between every pair
 of vertices in the graph.
@@ -44,6 +53,8 @@ from every other vertex.
 Here is a strongly connected graph:
 
 ![Strongly Connected Graph](images/strongly-connected.png)
+
+### Cycles in Graphs
 
 A directed graph is said to be **acyclic** if there are no loops within the
 directed graph.

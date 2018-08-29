@@ -1,5 +1,9 @@
 # Graph Algorithms :fire: :fire:
 
+![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
+
+<center>![Undirected Graph](images/simple-graph.png)</center>
+
 C++ implementations of various graph algorithms such as: Graph Traversals
 (BFS, DFS), Topological Sort, Shortest Path, and Minimum Spanning Trees.
 
@@ -25,7 +29,7 @@ A graph may be _directed_ or _undirected_.
 
 Here is an example of a simple undirected graph:
 
-![Undirected Graph](images/simple-graph.png)
+![Undirected Graph](images/undirected-graph.png)
 
 Here is a simple directed graph:
 

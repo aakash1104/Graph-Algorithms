@@ -2,7 +2,7 @@
 
 ![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-<center>![Undirected Graph](images/simple-graph.png)</center>
+![Undirected Graph](images/simple-graph.png)
 
 C++ implementations of various graph algorithms such as: Graph Traversals
 (BFS, DFS), Topological Sort, Shortest Path, and Minimum Spanning Trees.
